@@ -14,10 +14,16 @@ public class Hello_consola {
     /**
      * @param args the command line arguments
      */
+    
+    
+    
+    private static void imprimirMensaje (){
+         System.out.print("Hello world");
+    }
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.print("Hello world");
        
+       imprimirMensaje();
     }
 
     public Hello_consola() {
